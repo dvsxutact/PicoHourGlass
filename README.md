@@ -43,3 +43,6 @@ Original 3D Model & Code
   * [Thingiverse](https://www.thingiverse.com/thing:5184837)
   * [Youtube](https://www.youtube.com/watch?v=zHJjEaxN9Wg)
   * [Code](https://drive.google.com/drive/folders/1FmsJe3t4GnKt1Uj1wuZmlCyuoFlpcOao)
+
+Useful Links:
+  * [Adafruit Fritzing Library](https://github.com/adafruit/Fritzing-Library)
