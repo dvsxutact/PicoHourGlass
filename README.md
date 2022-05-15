@@ -1,3 +1,7 @@
+PicoHourGlass is based on the hourglass-on-pico project (link)
+
+I've added comments to the code, as well as wiring schematics and 3D schematics for the housing
+
 # hourglass-on-pico
 "Hourglass" on the raspberry pi pico using circuitpython
 
