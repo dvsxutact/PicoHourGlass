@@ -6,21 +6,29 @@ import adafruit_adxl34x
 import digitalio
 from adafruit_max7219 import matrices
 
+# DIN Pin Matrix #1
 MOSI = board.GP11
+# DIN Pin Matrix #2
 MOSI2 = board.GP19
+
+# CLK Pin Matrix #1
 clk = board.GP10
+# CLK Pin Matrix #2
 clk2 = board.GP18
+
+# CS Pin Maxtrix #1
 cs1 = digitalio.DigitalInOut(board.GP15)
+# CS Pin Maxtrix #2
 cs2 = digitalio.DigitalInOut(board.GP14)
 
-
+# Setup SPI buses
 spi1=busio.SPI(clk,MOSI=MOSI)
 spi2=busio.SPI(clk2,MOSI=MOSI2)
 
 DELAY = 0.00
 
+# Setup I2C for the Accelo and define the accelo
 i2c = busio.I2C(scl=board.GP1, sda=board.GP0)
-# the accelo
 accelo = adafruit_adxl34x.ADXL345(i2c)
 
 # the matrix
